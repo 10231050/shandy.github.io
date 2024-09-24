@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+h1, h2, h4 {
+    font-weight: bold;
+}
+
+p.lead {
+    font-size: 1.2rem;
+}
+
+a.btn {
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+
+/* Home Section Styling */
+#home {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.profile-container {
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #fff;
+    transition: transform 0.3s ease;
+}
+
+.profile-img:hover {
+    transform: scale(1.1);
+}
+
+/* About Section Styling */
+#about {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+}
+
+#about h2 {
+    margin-bottom: 40px;
+}
+
+/* Progress Bar */
+.progress {
+    height: 20px;
+    background-color: #e9ecef;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    border-radius: 10px;
+}
+
+/* Contact Section Styling */
+#contact {
+    padding: 60px 0;
+}
+
+#contact a.btn {
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+#contact a i {
+    font-size: 1.5rem;
+    margin-right: 8px;
+}
